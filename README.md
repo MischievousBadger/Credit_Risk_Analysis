@@ -30,6 +30,7 @@ The purpose of this project is to analyze a LendingClub credit card credit datas
 ![Screen Shot 2022-04-27 at 8 30 47 PM](https://user-images.githubusercontent.com/90944163/165658316-196ff442-6d67-4fce-aabb-d4e27097858a.png)
 
 ### Precision And Recall Scores
+Precision scores amongst the 6 models were all very similar, as shown below, ranging from 0.01 to 0.09 for high risk and 0.99 for low risk. Recall scores showed much greater variation, ranging from 0.49 to 0.92 for high risk and 0.55 to 0.94 for low risk.  
 - Naive Random Oversampling
 
 ![Screen Shot 2022-04-27 at 8 38 41 PM](https://user-images.githubusercontent.com/90944163/165659027-fbb9b392-381a-4c14-9d91-187155c9f5f6.png)
