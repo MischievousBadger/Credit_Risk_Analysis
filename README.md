@@ -5,6 +5,8 @@ The purpose of this project is to analyze a LendingClub credit card credit datas
 
 ## Results
 ### Balanced Accuracy Scores
+Balanced accuracy scores showed a wide range of variation between models, from a low of 0.55 with the undersampling model to a high of 0.93 with the Easy Ensemble AdaBoost Classifier. 
+
 - Naive Random Oversampling
 
 ![Screen Shot 2022-04-27 at 8 24 06 PM](https://user-images.githubusercontent.com/90944163/165657715-a85dc744-7f4f-4c82-8a52-d5c61efa779c.png)
@@ -31,6 +33,7 @@ The purpose of this project is to analyze a LendingClub credit card credit datas
 
 ### Precision And Recall Scores
 Precision scores amongst the 6 models were all very similar, as shown below, ranging from 0.01 to 0.09 for high risk and 0.99 for low risk. Recall scores showed much greater variation, ranging from 0.49 to 0.92 for high risk and 0.55 to 0.94 for low risk.  
+
 - Naive Random Oversampling
 
 ![Screen Shot 2022-04-27 at 8 38 41 PM](https://user-images.githubusercontent.com/90944163/165659027-fbb9b392-381a-4c14-9d91-187155c9f5f6.png)
