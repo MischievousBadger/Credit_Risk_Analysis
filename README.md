@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the Analysis/Purpose
-
+The purpose of this project is to analyze a LendingClub credit card credit dataset using various machine learning models, and evaluate the performance of these models in order to recommend whether they should be used to predict credit risk.  Models utilized during the analysis are Naive Random Oversampling, SMOTE Ovesampling, Undersampling, SMOTEENN, Balanced Random Forest Classifier and Easy Ensemble Classifier.  Tools utilized for this analysis include Jupyter Notebook, Pandas, Numpy and the imbalanced-learn and scikit-learn libraries.  
 
 ## Results
 ### Balanced Accuracy Scores
