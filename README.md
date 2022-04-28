@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the Analysis/Purpose
-The purpose of this project is to analyze a LendingClub credit card credit dataset using various machine learning models, and evaluate the performance of these models in order to recommend whether they should be used to predict credit risk.  Models utilized during the analysis are Naive Random Oversampling, SMOTE Ovesampling, Undersampling, SMOTEENN, Balanced Random Forest Classifier and Easy Ensemble Classifier.  Tools utilized for this analysis include Jupyter Notebook, Pandas, Numpy and the imbalanced-learn and scikit-learn libraries.  
+The purpose of this project is to analyze a LendingClub credit card credit dataset using various machine learning models, and evaluate the performance of these models in order to recommend whether they should be used to predict credit risk.  Models utilized during the analysis are Naive Random Oversampling, SMOTE Ovesampling, Undersampling, SMOTEENN, Balanced Random Forest Classifier and Easy Ensemble Classifier.  Tools utilized for this analysis include Jupyter Notebook, Python, Pandas, Numpy and the imbalanced-learn and scikit-learn libraries.  
 
 ## Results
 ### Balanced Accuracy Scores
@@ -59,4 +59,4 @@ Precision scores amongst the 6 models were all very similar, as shown below, ran
 ![Screen Shot 2022-04-27 at 8 35 54 PM](https://user-images.githubusercontent.com/90944163/165658784-ad601674-abf9-438b-a349-6bc93d6b6588.png)
 
 ## Summary
-
+Of the 6 models, the Easy Ensemble AdaBoost Classifier showed the greatest performance, with the best overall balanced accuracy score at 93%, best overall precision at 9%, and best overall recall at 94%. The ensemble methods (Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifer) showed greater performance than the various resampling methods (Naive Random Oversampling, SMOTE, Undersampling and SMOTEENN).  Precision was similar throughout all models; however, recall and balanced accuracy scores for resampling methods were far lower than the ensemble methods.  Out of the models tested and trained, Easy Ensemble AdaBoost Classifer would be the most recommended model based on its precision, recall and balanced accuracy scores that are much greater than the other models.  While it would not be recommended to put this model into actual production with the current scores, with continued training/testing and the addition of more datasets one could potentially further increase accuracy, precision and recall in this model. 
